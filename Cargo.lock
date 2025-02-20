@@ -752,9 +752,9 @@ dependencies = [
 
 [[package]]
 name = "bracoxide"
-version = "0.1.4"
+version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fbc0bcb5424e8e1f29c21a00f2d222df5e8e9779732ff03f840315d8fbac708e"
+checksum = "7f52991c481aa9d7518254cfb6ce5726d24ff8c5d383d6422cd3793729b0962a"
 
 [[package]]
 name = "brotli"
@@ -5809,8 +5809,7 @@ dependencies = [
 [[package]]
 name = "reedline"
 version = "0.38.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9bfa8cb0ad84c396c936d8abb814703d7042a433d2da75a0c7060cbdc89109f3"
+source = "git+https://github.com/nushell/reedline?branch=main#4ca1ed960f8b3a1c9c28e1b5dbfd9e2fd6ae3907"
 dependencies = [
  "arboard",
  "chrono",
